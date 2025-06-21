@@ -1,0 +1,32 @@
+@use '../../style/variables' as v;
+@use '../../style/mixins' as mx;
+
+.my-btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 13px;
+    padding: 19px 30px;
+    background-color: v.$color-Yellow;
+    color: v.$color-White;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+
+
+    &-auth{
+        padding: 0;
+        background:none;
+        border: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 183%;
+        vertical-align: middle;
+    }
+
+    &--link{
+        border: 2px solid v.$color-Chrome-Yellow;
+        background-color: transparent;
+        color: v.$color-Chrome-Yellow;
+    }
+}

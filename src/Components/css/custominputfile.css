@@ -1,0 +1,19 @@
+.custom-file__label {
+  display: inline-block;
+  padding: 5px 16px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #141414;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+}
+.custom-file__label svg {
+  color: rgba(0, 0, 0, 0.5019607843);
+  margin-right: 8px;
+}
+.custom-file__input {
+  display: none;
+}/*# sourceMappingURL=custominputfile.css.map */

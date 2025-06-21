@@ -1,0 +1,14 @@
+@use '../../style/variables' as v;
+@use '../../style/mixins' as mx;
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: v.$color-White;
+    border-radius: 1px;
+    padding: 28px 238px 402px;
+    gap: 20px;
+
+}

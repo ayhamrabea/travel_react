@@ -1,0 +1,30 @@
+@use '../../style/variables' as v;
+@use '../../style/mixins' as mx;
+
+.hero{
+    position: relative;
+    background: url('/Hero.png') center/cover no-repeat;
+    width: 100%;
+    z-index: 1;
+    margin: -102px 0 60px;
+
+    &__title{
+        position: relative;
+        font-weight: 700;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: v.$color-White;
+        text-align: center;
+        padding: 208px 0 142px 0;
+        margin: 0;
+
+        @include mx.vp-1023 {
+            font-size: 36px;
+        }
+
+        @include mx.vp-767 {
+            font-size: 20px;
+        }
+
+    }
+}

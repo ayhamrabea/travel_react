@@ -1,0 +1,27 @@
+@use '../../style/variables' as v;
+@use '../../style/mixins' as mx;
+
+.custom-file{
+
+    &__label{
+        display: inline-block;
+        padding: 5px 16px;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: v.$color-Onyx;
+        border: 1px solid v.$color-border;
+        border-radius: 4px;
+
+        svg{
+            color: v.$color-Onyx-opacity;
+            margin-right: 8px;
+        }
+    }
+
+    &__input {
+        display: none;
+    }
+}

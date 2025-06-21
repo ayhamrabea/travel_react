@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "ayham",
+            "email": "ayham@example.com"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Уикенд в Париже",
+            "description": "Короткая, но насыщенная поездка в Париж. Поднялся на Эйфелеву башню, прогулялся по Монмартру и насладился круассанами.",
+            "city": "Париж",
+            "country": "Франция",
+            "photo": "https://images.unsplash.com/photo-1713523084686-0398b17860f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "date": "2025-03-08"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Моё путешествие в Лондон",
+            "description": "Это была незабываемая поездка в Лондон! Я посетил Биг-Бен, Тауэрский мост и попробовал традиционный английский завтрак.",
+            "city": "Лондон",
+            "country": "Великобритания",
+            "photo": "https://plus.unsplash.com/premium_photo-1694475260493-bf960eeb3d1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "date": "2025-05-18"
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "title": "Отдых в Токио",
+            "description": "Токио — удивительный город, сочетающий в себе древние традиции и ультрасовременные технологии. Посетил храм Асакуса и попробовал рамен!",
+            "city": "Токио",
+            "country": "Япония",
+            "photo": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "date": "2024-11-11"
+        }
+    ]
+}

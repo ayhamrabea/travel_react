@@ -1,0 +1,61 @@
+@use '../../style/variables' as v;
+@use '../../style/mixins' as mx;
+
+.form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+    &__label{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: v.$color-Onyx-opacity;
+        margin-left: 8px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 5px 12px;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        border: 1px solid v.$color-border;
+        transition: border-color v.$transition-300;
+        resize: both;
+
+
+
+      &:focus, &:hover {
+        border-color: v.$color-Chrome-Yellow;
+        outline: none;
+      }
+
+      &:invalid {
+        border-color: v.$color-error;
+      }
+    }
+
+
+
+    &__error-text {
+      color: v.$color-error;
+      font-size: 12px;
+      padding-left: 4px;
+    }
+
+    &--error {
+      input,
+      textarea {
+        border-color: v.$color-error;
+      }
+
+      .form-field__label{
+        color: v.$color-error;
+      }
+    }
+}
